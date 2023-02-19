@@ -3,7 +3,7 @@ package week3;
 public class MyThread extends Thread{
 
     public MyThread(String name){
-
+        super(name);
     }
 
     @Override
